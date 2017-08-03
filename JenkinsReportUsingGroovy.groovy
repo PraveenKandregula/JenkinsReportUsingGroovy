@@ -4,7 +4,8 @@ import hudson.*
 import hudson.model.*
 
 //Getting yesterday's date
-ydate = new Date()-1
+#ydate = new Date()-1
+ydate = new Date() - 1
 ydateFormatted = ydate.format( 'yyyy-MM-dd' )
 //println ydateFormatted
 
