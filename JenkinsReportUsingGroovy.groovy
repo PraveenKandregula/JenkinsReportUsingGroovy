@@ -11,6 +11,7 @@ ydateFormatted = ydate.format( 'yyyy-MM-dd' )
 //println ydateFormatted
 
 //Traversing through all jobs
+println "\n\n"
 allJobs = Hudson.instance.getAllItems()
 count = 0
 allJobs.each { job ->
@@ -28,6 +29,7 @@ allJobs.each { job ->
       }
   }
 }
+println "\n\n"
 if (count !=0)
 	println "No.of jobs ran on ${ydateFormatted}: ${count}"
 else
