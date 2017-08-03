@@ -2,6 +2,7 @@ import jenkins.*
 import jenkins.model.*
 import hudson.*
 import hudson.model.*
+import java.util.Date
 
 //Getting yesterday's date
 //ydate = new Date()-1
